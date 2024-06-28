@@ -44,13 +44,13 @@ Relational Database Management Systems: PostgreSQL, Microsoft SQL Server, MySQL
 ### Education
 
 + *Educational Center of HTP*
-+ + **2018** - C++ development
-+ + **2018** - C++ game development
+  + **2018** - C++ development
+  + **2018** - C++ game development
 
 + *Belarusian State University of Informatics and Radioelectronics, Minsk*
-+ + **2008 - 2013** – Radio-electronic information protection, qualification of engineer in radio electronics (Bachelor)
+  + **2008 - 2013** – Radio-electronic information protection, qualification of engineer in radio electronics (Bachelor)
 SP 390104
-+ + **2011 - 2012** – Advanced English technical translation, annotation and abstracting of literature in telecommunications and IT
+  + **2011 - 2012** – Advanced English technical translation, annotation and abstracting of literature in telecommunications and IT
 № 716-12
 
 ### Languages
