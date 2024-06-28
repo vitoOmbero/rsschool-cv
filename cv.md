@@ -1,9 +1,13 @@
 # Victor Bomberow
 
-**Phone**:   [+375 29 694 91 52](callto:+375296949152)
-**Email**:     [victor@gds.by](mail:victor@gds.by)
-**Skype**:     [live:.cid.fe6ebb1cb4a7cdfc](skype:.cid.fe6ebb1cb4a7cdfc?call)
+**Phone**:   [+375 29 694 91 52](tel:+375296949152)
+
+**Email**:     [victor@gds.by](mailto:victor@gds.by)
+
+**Skype**:     [live:.cid.fe6ebb1cb4a7cdfc](skype:live:.cid.fe6ebb1cb4a7cdfc?call)
+
 **Linkedin**:   [linkedin.com/in/victor-bomberow/](https://linkedin.com/in/victor-bomberow/)
+
 **Github**:     [github.com/vitoOmbero/](https://github.com/vitoOmbero/)
 
 ## Objective
