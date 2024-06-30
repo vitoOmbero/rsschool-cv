@@ -10,6 +10,8 @@
 
 **Github**:     [github.com/vitoOmbero/](https://github.com/vitoOmbero/)
 
+
+
 ## Objective
 
 C++ SOFTWARE DEVELOPER
@@ -63,14 +65,17 @@ SP 390104
 ### Ispirer Systems LTD
 
 C++ developer
+
 Jan, 2020 - present time
 
 ### The Ministry of Internal Affairs of the Republic of Belarus
 
 Security Operations Center C# / C++ lead developer - Police Officer (Projects not disclosure)
+
 Jan, 2018 - Aug, 2020
 
 Security Operations Center Security Analyst - Police Officer (Projects not disclosure)
+
 Aug, 2013 – Dec, 2017
 
 ### Projects
@@ -91,6 +96,8 @@ Aug, 2013 – Dec, 2017
 
 **Team Size:** ~4-5 developers.
 
+---
+
 #### MIA RB Projects Description
 
 **Projects:**  Analysis system client, based on Openstreetmap and set theory; Analysis system server, based on RabbitMQ and custom authorization system; Analysis system GUI and command line tools; Analysis system data import tools; CI/CD for projects based on Gitlab, ClickOnce.
@@ -107,3 +114,41 @@ Technologies and Tools: C#, Wcf, Ado.net, ClickOnce, EF, Winforms, EPPLus, C++, 
 **Responsibilities:** Analysis system development and administration, customer support, fix issues and new features development.
 
 **Achievements:** Feature realization cycle was shortened to days after I finished global legacy code refactoring of prototypes and CI/CD integration with Gitlab; I wrote documentation with Doxygen and covered core logic for all projects with tests; I implemented administration tool for system and shortened administration operations to an hour per day; I built an automated process for updating Openstreetmap server for usage in private isolated intranet.
+
+---
+
+### Samples
+
+Open source repos at [github.com/vitoOmbero/](https://github.com/vitoOmbero/) are outdated.
+Updates are coming...
+
+```c++
+#ifdef PEP_DEBUG
+  Terminal::ReportMsg("OpenGL Version: ");
+  Terminal::ReportMsg(std::to_string(gl_major_ver));
+  Terminal::ReportMsg(std::to_string(gl_minor_ver));
+#endif
+
+#ifdef PEP_DEBUG
+  Terminal::ReportMsg("Engine play() called...");
+#endif
+  GlRendererService::SetActiveWindow(window);
+
+  InputProcessingService::Init(gGameConfiguration.InputModes);
+
+  GameLevelLogicProcessor::GetSingleton().ProcessLevel(
+      gGameConfiguration.DescriptionInfo->entry_point);
+
+  while (GameLevelLogicProcessor::isNotLastLevel()) {
+    GameLevelLogicProcessor::GetSingleton().ProcessNextLevel();
+  }
+
+  GameLevelLogicProcessor::GetSingleton().ProcessLevel(
+      gGameConfiguration.DescriptionInfo->exit_point);
+
+  InputProcessingService::Destroy();
+
+  SDL_GL_DeleteContext(gl_context);
+  SDL_DestroyWindow(window);
+  SDL_Quit();
+```
